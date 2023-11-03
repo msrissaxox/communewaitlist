@@ -13,7 +13,7 @@ html {
     font-family: 'Nunito Sans', sans-serif;
     
 }
-@media (max-width: 825px) {
+@media (max-width: 600px) {
 
     body {
         
@@ -32,6 +32,9 @@ html {
     border-radius: 40px;
     text-align: center;
     font-size: .75em;
+    margin: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .learn_more > p {
@@ -92,6 +95,8 @@ border-width: 1px;
     font-weight: bold;
     letter-spacing: .1px;
 }
-
+.gallery svg {
+    width: 33px;
+}
 }
 

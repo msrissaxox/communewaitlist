@@ -1,6 +1,9 @@
 :root {
     --font-color1: #CCC1E6;
+    --font-color2: #545454;
     --background-color1: #372865;
+    --background-color2:  #F6F9FE;
+   
 }
 
 html {
@@ -12,6 +15,10 @@ html {
     background-color: var(--background-color1);
     padding: 10px;
     border-radius: 40px;
+}
 
+body {
+    background-color: var(--background-color2);
+    color: var(--font-color2);
 }
 }

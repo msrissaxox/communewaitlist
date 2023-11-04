@@ -2,7 +2,8 @@
 * {
     box-sizing: border-box;
 }
-:root {
+
+    :root {
     --font-color1: #CCC1E6;
     --font-color2: #545454;
     --font-color3: #372865;
@@ -32,6 +33,11 @@ html {
         width: 100%;
     }
     */
+
+    ul {
+        list-style: none;;
+    }
+    
     .logo  {
    display: flex;
    flex-direction: row;

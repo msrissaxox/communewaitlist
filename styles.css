@@ -1,18 +1,30 @@
 
-
+* {
+    box-sizing: border-box;
+}
 :root {
     --font-color1: #CCC1E6;
     --font-color2: #545454;
     --font-color3: #372865;
     --background-color1: #372865;
     --background-color2:  #F6F9FE;
-   
 }
+
+body {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+ 
+}
+
+
 
 html {
     font-family: 'Nunito Sans', sans-serif;
-    
+    margin: 10px;
+
 }
+
 @media (max-width: 600px) {
 /* work on this section
     body {
@@ -25,6 +37,14 @@ html {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+    }
+
+    .logo > .logo1 {
+      flex-basis: 85px;
+    }
+
+    .logo > .logo2 {
+    flex-basis: 15px;
     }
 
     header .nav-bar p {
@@ -105,7 +125,7 @@ border-radius: 4px;
     letter-spacing: .1px;
 }
 .gallery svg {
-    width: 33px;
+    width: 033px;
 }
 }
 

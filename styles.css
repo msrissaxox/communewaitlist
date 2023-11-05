@@ -52,7 +52,7 @@ header {
     position: fixed;
     overflow: hidden;
     }
-    
+
     .logo  {
    display: flex;
    flex-direction: row;
@@ -141,12 +141,16 @@ border-radius: 4px;
 }
 
 .footer-notes {
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 11px;
+    font-weight: 600;
     letter-spacing: .1px;
+    margin-top: 25px;
+    margin-left: 11px;
 }
 .gallery svg {
-    width: 033px;
+    width: 31px;
+    height: 34px;
 }
+
 }
 

@@ -3,26 +3,13 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --font-color1: #CCC1E6;
     --font-color2: #545454;
     --font-color3: #372865;
     --background-color1: #372865;
     --background-color2:  #F6F9FE;
-}
-
-body {
-    border: solid 1px black;
-    border-radius: 5px;
-    padding: 6px;
-    height: 100%;
- 
-}
-
-html {
-    font-family: 'Nunito Sans', sans-serif;
-    margin: 10px;
-
 }
 
 @media (max-width: 600px) {
@@ -34,7 +21,19 @@ html {
     */
 
     /* top nav bar */
-
+    body {
+        border-radius: 5px;
+        padding: 30px 10px;
+        height: 100%;
+        background-color: var(--font-color1);
+    }
+    
+    html {
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 10px;
+        background-color: white;
+    
+    }
 header {
     position: sticky;
     width: 100%;
@@ -120,9 +119,10 @@ header {
 .build_statement {
 color: #353252;
 font-size: 20px;
-font-weight: 700;
+font-weight: 620;
 text-align: center;
 margin: 10px;
+letter-spacing: .3px;
 }
 
 body {
@@ -155,8 +155,8 @@ border-radius: 4px;
 }
 
 .waitlist {
-    width: 200px;
-    padding: 9px;
+    width: 178px;
+    padding: 10px;
     margin: 0 auto;
     display: block;
     font-size: 10px;
@@ -165,8 +165,9 @@ border-radius: 4px;
     color: white;
     border-radius: 4px;
 }
+
 .email {
-    border-color: #edede9;
+    border-color: white;
 }
 
 .footer-notes {

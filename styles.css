@@ -1,6 +1,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -37,10 +39,73 @@
     html {
         font-family: 'Nunito Sans', sans-serif;
         margin: 10px;
-        background-color: white;
-    
     }
-header {
+
+    .menu-wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .menu-wrap .toggler {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+    }
+
+    .menu-wrap .hamburger {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 60px;
+        height: 60px;
+        padding: 1rem;
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*hamburger line */
+    .menu-wrap .hamburger > div {
+        position: relative;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-wrap .hamburger > div:before,
+    .menu-wrap .hamburger > div:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: -10px;
+        width: 100%;
+        height: 2px;
+        background: inherit;
+    }
+
+    /*moves line down*/
+
+    .menu-wrap .hamburger > div:after {
+        top: 10px;
+    }
+
+
+    }
+
+/*
+    header {
     position: sticky;
     width: 100%;
     top: 0;
@@ -49,10 +114,10 @@ header {
 
     /* Menu */
 
-    ul {
+   /* ul {
         list-style: none;
-    }
-
+    } 
+/*
     .nav {
     width: 100%;
     height: 100%;
@@ -64,9 +129,9 @@ header {
         display: block;
         padding: 30px;
     }
-
+*/
 /*Temporary color */
-
+/*
     .nav li:hover {
         background-color: var(--font-color1);
     }
@@ -114,7 +179,7 @@ header {
     font-weight: 600;
     font-size: .75em;
 }
-
+*/
     .learn_more {
     background-color: var(--background-color1);
     border-radius: 40px;

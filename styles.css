@@ -28,6 +28,12 @@
         background-color: var(--font-color1);
     }
     
+    a {
+        text-decoration: none;
+        color: var(--font-color1);
+        font-weight: bold;
+    }
+
     html {
         font-family: 'Nunito Sans', sans-serif;
         margin: 10px;
@@ -58,6 +64,7 @@ header {
         display: block;
         padding: 30px;
     }
+
 /*Temporary color */
 
     .nav li:hover {
@@ -71,7 +78,11 @@ header {
 
     .hamb {
         cursor: pointer;
+        padding: 40px 20px;
     }
+
+
+
 
     .side-menu {
         display: none;
@@ -81,11 +92,13 @@ header {
         max-height: 100%;
     }
 
+
     .logo  {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   position: relative;
     }
 
     .logo > .logo1 {

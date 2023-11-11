@@ -11,7 +11,8 @@
     --font-color2: #545454;
     --font-color3: #372865;
     --background-color1: #372865;
-    --background-color2:  #F6F9FE;
+    --background-color2: #F6F9FE;
+    --background-color3: rgba(55, 40, 101,.95)
 }
 
 @media (max-width: 600px) {
@@ -28,6 +29,7 @@
         padding: 30px 10px;
         height: 100%;
         background-color: var(--font-color1);
+        margin-top: 30px;
     }
     
     a {
@@ -59,15 +61,17 @@
         opacity: 0;
     }
 
+    /*square for menu*/
+
     .menu-wrap .hamburger {
         position: absolute;
         top: 0;
         left: 0;
         z-index: 1;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 40px;
         padding: 1rem;
-        background: var(--font-color2);
+        background: var(--background-color3);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -102,7 +106,7 @@
     .menu-wrap .hamburger > div:after {
         top: 10px;
     }
-/*Toggler animate */
+/*Toggler animate not targeting checkbox but targeting hamburger's immediate div*/
 
 .menu-wrap .toggler:checked + .hamburger > div {
 transform: rotate(135deg);
@@ -114,7 +118,7 @@ transform: rotate(135deg);
     top: 0;
     transform: rotate(90deg);
 }
-/* Rotate of hover when checked */
+/* Rotate on hover when checked */
 .menu-wrap .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
 }
@@ -146,7 +150,7 @@ transform: rotate(135deg);
     justify-content: center;
 }
 .menu-wrap .menu > div {
-    background: var(--font-color1);
+    background: var(--background-color3);
     border-radius: 50%;
     width: 200vw;
     height: 200vw;

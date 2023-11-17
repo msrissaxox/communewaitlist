@@ -5,7 +5,6 @@
     padding: 0;
 }
 
-
 :root {
     --font-color1: #CCC1E6;
     --font-color2: #545454;
@@ -13,6 +12,9 @@
     --background-color1: #372865;
     --background-color2: #F6F9FE;
     --background-color3: rgba(55, 40, 101,.95)
+}
+input::placeholder {
+    color: #c0c0c0;
 }
 
 @media (max-width: 600px) {
@@ -342,5 +344,7 @@ border-radius: 4px;
     height: 34px;
 }
 
+.footer-notes {
+    margin-bottom: 15px;
 }
 

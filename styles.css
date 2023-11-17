@@ -13,8 +13,30 @@
     --background-color2: #F6F9FE;
     --background-color3: rgba(55, 40, 101,.95)
 }
+body {
+    border: 10px solid black;
+
+}
 input::placeholder {
     color: #c0c0c0;
+}
+
+.learn_more {
+    background-color: var(--background-color1);
+    border-radius: 40px;
+    text-align: center;
+    font-size: .75em;
+    display: flex;
+    flex-direction: row;
+    padding: 10px; 
+}
+
+.learn_more > p {
+    color: var(--font-color1);
+}
+.learn_more > p > a {
+    text-decoration: underline;
+    color: var(--font-color1)
 }
 
 @media (max-width: 600px) {
@@ -29,13 +51,12 @@ input::placeholder {
     body {
         border-radius: 5px;
         padding: 30px 10px;
+
+        margin-top: 60px;
         height: 100%;
-        background-color: var(--font-color1);
-        margin-top: 30px;
     }
     
     a {
-        text-decoration: none;
         color: var(--font-color3);
         font-weight: bold;
     }
@@ -264,19 +285,7 @@ transition: all 0.4s ease;
     font-size: .75em;
 }
 */
-    .learn_more {
-    background-color: var(--background-color1);
-    border-radius: 40px;
-    text-align: center;
-    font-size: .75em;
-    margin: 20px;
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-.learn_more > p {
-    color: var(--font-color1);
-}
+ 
 
 .build_statement {
 color: #353252;
@@ -285,11 +294,6 @@ font-weight: 620;
 text-align: center;
 margin: 10px;
 letter-spacing: .3px;
-}
-
-body {
-    background-color: var(--background-color2);
-    color: var(--font-color2);
 }
 
 .hidden_button {

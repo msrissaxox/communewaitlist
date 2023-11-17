@@ -13,9 +13,10 @@
     --background-color2: #F6F9FE;
     --background-color3: rgba(55, 40, 101,.95)
 }
-body {
-    border: 10px solid black;
-
+.entire-page {
+    padding: 10px;
+    background-color: var(--background-color2);
+    border-radius: 5px;
 }
 input::placeholder {
     color: #c0c0c0;
@@ -50,9 +51,9 @@ input::placeholder {
     /* top nav bar */
     body {
         border-radius: 5px;
-        padding: 30px 10px;
+        padding: 5px 5px;
 
-        margin-top: 60px;
+        margin-top: 40px;
         height: 100%;
     }
     

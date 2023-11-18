@@ -17,6 +17,8 @@
     padding: 13px;
     background-color: var(--background-color2);
     border-radius: 5px;
+   /* need to adjust this to work for all sizes */
+    height: 95vh;
 }
 input::placeholder {
     color: #c0c0c0;
@@ -300,7 +302,7 @@ border-radius: 4px;
             padding: 5px 5px;
             height: 100%;
             border: solid 10px pink;
-            
+            height: 100vh;
         }
      
         .flex1{

@@ -41,7 +41,7 @@ input::placeholder {
     color: var(--font-color1)
 }
 /*View for mobile*/
-@media (max-width: 600px) {
+@media (min-width:220px) and (max-width: 480px) {
 /* work on this section
     body {
         height: 100%;
@@ -290,7 +290,7 @@ border-radius: 4px;
 }
 
 /* Styles for tablet view */
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 768px) {
     body {
             border-radius: 15px;
             padding: 5px 5px;

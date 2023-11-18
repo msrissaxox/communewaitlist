@@ -68,6 +68,7 @@ right: 29px;
 top: 0;
 }
 
+
 .email:focus{
     outline: 1px solid #edf2f4;
   }
@@ -291,11 +292,15 @@ border-radius: 4px;
 
 /* Styles for tablet view */
 @media (min-width: 481px) and (max-width: 768px) {
+    html {
+        height: 100%;
+    }
     body {
             border-radius: 15px;
             padding: 5px 5px;
             height: 100%;
             border: solid 10px pink;
+            
         }
      
         .flex1{
@@ -311,6 +316,11 @@ border-radius: 4px;
     top: 0;
     }
     
+    .learn_more {
+        display: flex;
+        justify-content: center;
+    }
+
     .email:focus{
         outline: 5px solid #edf2f4;
       }
@@ -461,7 +471,7 @@ border-radius: 4px;
         font-size: .75em;
         display: flex;
         flex-direction: row;
-        padding: 10px; 
+        padding: 5px; 
         margin-top: 35px;
     }
     
@@ -506,7 +516,7 @@ border-radius: 4px;
             font-size: 35px;
             font-weight: 620;
             text-align: center;
-            margin: 20px 80px;
+            margin: 10px 80px;
             letter-spacing: .5px;
             }
             
@@ -515,9 +525,8 @@ border-radius: 4px;
             }
   
     .paragraph {
-        margin-top: -12px;
-        font-size: 13px;
-        margin: 20px 70px;
+        font-size: 11.5px;
+        margin: 5px 70px;
         text-align: center;
         font-weight: 100;
         color: #495057;

@@ -303,24 +303,25 @@ border-radius: 4px;
         height: 100%;
     }
     body {
-            border-radius: 15px;
-            padding: 5px 5px;
-            height: 100%;
-            border: solid 10px pink;
-            height: 100vh;
+        border-radius: 15px;
+        padding: 5px 5px;
+        height: 100%;
+        border: solid 10px pink;
+        height: 100vh;
         }
-     
-        .flex1{
+     .flex > .flex1 {
+        margin: 50px 40px;
+     }
+    .flex1{
         display: flex;
         flex-direction: row;
-        margin-top: 35px;
      }
 
     .logo {
     width: 95px;
     position: absolute;
     right: 29px;
-    top: 0;
+    top: 14px;
     }
     
     .learn_more {

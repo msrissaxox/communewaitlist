@@ -507,7 +507,7 @@ border-radius: 4px;
             font-weight: 620;
             text-align: center;
             margin: 20px 80px;
-            letter-spacing: .1px;
+            letter-spacing: .5px;
             }
             
             .hidden_button {
@@ -517,7 +517,7 @@ border-radius: 4px;
     .paragraph {
         margin-top: -12px;
         font-size: 13px;
-        margin: 20px 90px;
+        margin: 20px 70px;
         text-align: center;
         font-weight: 100;
         color: #495057;
@@ -561,9 +561,7 @@ border-radius: 4px;
     .gallery svg {
         width: 32px;
         height: 34px;
-        margin-bottom: 20px;
+        margin: 2px 3px 20px 0px;
     }
-    
-   
 
 }

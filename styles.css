@@ -319,6 +319,7 @@ border-radius: 4px;
         border: solid 10px pink;
         height: 100vh;
         }
+
         /*Gives the top menu a margin*/
      .flex > .flex1 {
         margin: 50px 40px;
@@ -343,6 +344,9 @@ border-radius: 4px;
     .email:focus{
         outline: 1px solid #edf2f4;
       }
+     .email {
+        font-size: 12px;
+     }
      
     a {
         color: var(--font-color3);
@@ -504,9 +508,9 @@ border-radius: 4px;
     }
     .tablet-menu {
         display: flex;
-        border: solid 2px;
         justify-content: center;
         align-content: center;
+        margin-top: -30px;
     }
    
     .learn_more {
@@ -553,7 +557,6 @@ border-radius: 4px;
     .flexy {
        display: grid;
         grid-template-columns: 200px 100px;
-    
         justify-content: center;
         column-gap: 30px;
     }
@@ -567,8 +570,8 @@ border-radius: 4px;
         padding: 10px;
         margin: 0 auto;
         display: block;
-        font-size: 10px;
-        letter-spacing: .5px;
+        font-size: 12px;
+        letter-spacing: .4px;
         background-color:var(--background-color1);
         color: white;
         border-radius: 4px;

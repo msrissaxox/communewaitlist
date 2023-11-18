@@ -30,6 +30,7 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     padding: 10px; 
+    margin-top: 35px;
 }
 
 .learn_more > p {
@@ -57,12 +58,17 @@ input::placeholder {
         height: 100%;
     }
  
+    .flex1{
+    display: inline-block;
+    
+ }
+
+}
     .logo {
-        position: absolute; 
-        top: 0;
-        right: 0;
-        padding-right: 10px;
+  border: solid 1px;
+
     }
+
     a {
         color: var(--font-color3);
         font-weight: bold;
@@ -74,18 +80,17 @@ input::placeholder {
     }
 f
     .menu-wrap {
-        position: absolute;
-        /*was fixed position, changed the above to absolute*/
-
-        top: 0;
-        left: 0;
+        position: relative;
+        /*was fixed position, changed the above to absolute, then relative*/
+        /*top: 0;
+        left: 0;*/ 
         z-index: 1;
     }
 
     .menu-wrap .toggler {
         position: absolute;
-        top: 0;
-        left: 0;
+        /*top: 0;
+        left: 0; */ 
         z-index: 2;
         cursor: pointer;
         width: 40px;
@@ -96,13 +101,12 @@ f
     /*square for menu*/
 
     .menu-wrap .hamburger {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: relative;
+        /* top: 0;
+        left: 0; */
         z-index: 1;
-        width: 50px;
-        height: 40px;
-        padding: 15px;
+        width: 40px;
+        /* padding: 15px 10px 10px 15px; */  
         background: transparent;
         display: flex;
         align-items: center;
@@ -127,16 +131,17 @@ f
         content: '';
         position: absolute;
         z-index: 1;
-        top: -10px;
+        top: -6px;
         width: 100%;
         height: 3px;
         background: inherit;
+        border: solid 1px red;
     }
 
     /*moves line down*/
 
     .menu-wrap .hamburger > div:after {
-        top: 10px;
+        top: 6px;
     }
 /*Toggler animate not targeting checkbox but targeting hamburger's immediate div*/
 
@@ -214,7 +219,7 @@ transition: all 0.4s ease-in-out;
     text-decoration: none;
     transition: color 0.4s ease-in-out;
 }
-}
+
 
 .build_statement {
 color: #353252;

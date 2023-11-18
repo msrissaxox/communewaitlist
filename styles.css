@@ -294,7 +294,7 @@ border-radius: 4px;
     body {
             border-radius: 15px;
             padding: 5px 5px;
-            height: 100vh;
+            height: 100%;
             border: solid 10px pink;
         }
      
@@ -453,37 +453,89 @@ border-radius: 4px;
         text-decoration: none;
         transition: color 0.4s ease-in-out;
     }
-    .build_statement {
-        color: #353252;
-        font-size: 20px;
-        font-weight: 620;
+
+    .learn_more {
+        background-color: var(--background-color1);
+        border-radius: 40px;
         text-align: center;
-        margin: 10px;
-        letter-spacing: .3px;
+        font-size: .75em;
+        display: flex;
+        flex-direction: row;
+        padding: 10px; 
+        margin-top: 35px;
     }
-    .hidden_button {
-        display: none;
+    
+    .learn_more > p {
+        color: var(--font-color1);
     }
+    .learn_more > p > a {
+        text-decoration: underline;
+        color: var(--font-color1);
+    }
+    .tablet-menu {
+        display: flex;
+        border: solid 1px;
+        justify-content: center;
+        align-content: center;
+    }
+   
+    .learn_more {
+        background-color: var(--background-color1);
+        border-radius: 40px;
+        text-align: center;
+        font-size: .75em;
+        display: flex;
+        flex-direction: row;
+        border: solid 2px red;
+        width: 75%; 
+
+
+    }
+    
+    .learn_more > p {
+        color: var(--font-color1);
+    }
+    .learn_more > p > a {
+        text-decoration: underline;
+        color: var(--font-color1)
+    }
+
+
+        .build_statement {
+            color: #353252;
+            font-size: 35px;
+            font-weight: 620;
+            text-align: center;
+            margin: 20px 80px;
+            letter-spacing: .1px;
+            }
+            
+            .hidden_button {
+                display: none;
+            }
+  
     .paragraph {
         margin-top: -12px;
-        font-size: 11px;
-        padding: 10px;
+        font-size: 13px;
+        margin: 20px 90px;
         text-align: center;
         font-weight: 100;
+        color: #495057;
+    }
+    .flexy {
+       display: grid;
+        grid-template-columns: 200px 100px;
+    
+        justify-content: center;
+        column-gap: 30px;
     }
     .email {
-        width: 178px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 10px;
-        display: block;
-        font-size: 11px;
         padding: 10px;
         border-width: 1px;
         border-radius: 4px;
     }
     .waitlist {
-        width: 178px;
+       width: 100px;
         padding: 10px;
         margin: 0 auto;
         display: block;
@@ -504,11 +556,12 @@ border-radius: 4px;
         margin-left: 11px;
     }
     .gallery svg {
-        width: 31px;
+        width: 32px;
         height: 34px;
     }
     
     .footer-notes {
         margin-bottom: 15px;
     }
+
 }

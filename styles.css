@@ -548,20 +548,22 @@ border-radius: 4px;
     .email {
         border-color: white;
     }
+   footer {
+    margin-left: 45px;
+   }
     .footer-notes {
         font-size: 11px;
         font-weight: 600;
         letter-spacing: .1px;
         margin-top: 25px;
-        margin-left: 11px;
+        margin-bottom: 5px;
     }
     .gallery svg {
         width: 32px;
         height: 34px;
+        margin-bottom: 20px;
     }
     
-    .footer-notes {
-        margin-bottom: 15px;
-    }
+   
 
 }

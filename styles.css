@@ -11,10 +11,10 @@
     --font-color3: #372865;
     --background-color1: #372865;
     --background-color2: #F6F9FE;
-    --background-color3: rgba(55, 40, 101,.95)
+    --background-color3: rgba(55, 40, 101, .95)
 }
 .entire-page {
-    padding: 10px;
+    padding: 13px;
     background-color: var(--background-color2);
     border-radius: 5px;
 }
@@ -53,17 +53,21 @@ input::placeholder {
     body {
         border-radius: 5px;
         padding: 5px 5px;
-
-        margin-top: 40px;
         height: 100%;
     }
  
     .flex1{
-    display: inline-block;
-    
+    display: flex;
+    flex-direction: row;
  }
-
+.logo {
+width: 95px;
+position: absolute;
+right: 12px;
+top: 0;
 }
+
+
     .logo {
   border: solid 1px;
 
@@ -285,4 +289,4 @@ border-radius: 4px;
 .footer-notes {
     margin-bottom: 15px;
 }
-
+}

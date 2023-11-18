@@ -314,10 +314,8 @@ border-radius: 4px;
     }
     body {
         border-radius: 15px;
-        padding: 5px 5px;
+        border: solid 5px pink;
         height: 100%;
-        border: solid 10px pink;
-        height: 100vh;
         }
 
         /*Gives the top menu a margin*/
@@ -519,7 +517,6 @@ border-radius: 4px;
         text-align: center;
         font-size: .75em;
         align-self: center;
-        border: solid 2px red;
         width: 75%; 
 
 
@@ -588,6 +585,7 @@ border-radius: 4px;
         letter-spacing: .1px;
         margin-top: 25px;
         margin-bottom: 5px;
+
     }
     .gallery svg {
         width: 32px;

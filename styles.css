@@ -77,6 +77,9 @@ input::placeholder {
         font-family: 'Nunito Sans', sans-serif;
         margin: 10px;
     }
+    .image {
+        display: none;
+    }
 
     .menu-wrap {
         position: relative;
@@ -302,6 +305,9 @@ transform: rotate(135deg);
         border-radius: 15px;
         height: 100%;
         /* margin-bottom: 150px; */
+    }
+    .image {
+        display: none;
     }
 
         /*Gives the top menu a margin*/
@@ -574,5 +580,12 @@ transform: rotate(135deg);
         height: 34px;
         margin: 2px 3px 20px 0px;
     }
+}
+@media (min-width: 769px) {
+ .logo {
+    position: relative;
+    top: 0;
+    right: 0;
 
+ }   
 }

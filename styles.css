@@ -854,7 +854,7 @@ transform: rotate(135deg);
         margin-left: 45px;
    }
     .footer-notes {
-        font-size: 11px;
+        font-size: 15px;
         font-weight: 600;
         letter-spacing: .1px;
         margin-top: 25px;
@@ -862,8 +862,8 @@ transform: rotate(135deg);
 
     }
     .gallery svg {
-        width: 32px;
-        height: 34px;
+        width: 40px;
+        height: 40px;
         margin: 2px 3px 20px 0px;
     }
 }

@@ -6,7 +6,7 @@
 }
 :root {
     --font-color1: #CCC1E6;
-    --font-color2: #545454;
+    --font-color2: #6c757d;
     --font-color3: #372865;
     --background-color1: #372865;
     --background-color2: #F6F8FE;
@@ -814,12 +814,16 @@ transform: rotate(135deg);
     .build_statement {
      grid-row: 2;
      grid-column: 1 / span 3;
+     border: solid;
     }
+
     .paragraph {
         grid-row: 3;
         grid-column: 1 / span 3; 
-
+        color: var(--font-color2);
+        border: solid;
     }
+
     .flexy {
         display: flex;
         justify-content: center;
@@ -848,7 +852,6 @@ transform: rotate(135deg);
         font-size: 40px;
         font-weight: 620;
         text-align: left;
-        margin: 10px;
         letter-spacing: .5px;
     } 
 

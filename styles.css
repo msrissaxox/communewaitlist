@@ -805,8 +805,8 @@ transform: rotate(135deg);
         background-color: var(--background-color1);
         border-radius: 40px;
         text-align: center;
-        font-size: .75em;
-        padding: 15px; 
+        font-size: 1em;
+        padding: 10px; 
         grid-row: 1;
         grid-column: 1 / span 2;
   }
@@ -847,8 +847,8 @@ transform: rotate(135deg);
         color: #353252;
         font-size: 40px;
         font-weight: 620;
-        text-align: center;
-        margin: 10px 80px;
+        text-align: left;
+        margin: 10px;
         letter-spacing: .5px;
     } 
 

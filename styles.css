@@ -760,7 +760,7 @@ transform: rotate(135deg);
         transition: color 0.4s ease-in-out;
     }
 
-    .learn_more {
+   /* .learn_more {
         background-color: var(--background-color1);
         border-radius: 40px;
         text-align: center;
@@ -785,16 +785,6 @@ transform: rotate(135deg);
         align-content: center;
         margin-top: -30px;
     }
-   
-    .learn_more {
-        background-color: var(--background-color1);
-        border-radius: 40px;
-        text-align: center;
-        font-size: .80em;
-        align-self: center;
-        width: 75%;
-        padding: 6px 8px;
-    }
     
     .learn_more > p {
         color: var(--font-color1);
@@ -803,6 +793,8 @@ transform: rotate(135deg);
         text-decoration: underline;
         color: var(--font-color1)
     }
+    */
+
     /*Grid section*/
     .container {
         display: grid;
@@ -810,32 +802,38 @@ transform: rotate(135deg);
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
   .learn_more {
-        grid-column: 1 / span 2;
+        background-color: var(--background-color1);
+        border-radius: 40px;
+        text-align: center;
+        font-size: .75em;
+        padding: 15px; 
         grid-row: 1;
-    }
-    .build_statement {
         grid-column: 1 / span 2;
-        grid-row: 2; 
+  }
+       
+    .build_statement {
+     grid-row: 2;
+     grid-column: 1 / span 3;
     }
     .paragraph {
-        grid-column: 1 / span 3;
         grid-row: 3;
-    }
-    .child1 {
-        grid-column: 1;
-        grid-row: 4;
-    }
-    .child2 {
-        grid-column: 2;
-        grid-row: 4;
+        grid-column: 1 / span 3; 
 
     }
+    .flexy {
+        display: flex;
+        grid-row: 4;
+        grid-column: 1 / span 2;
+    }
+
+
     .image {
-        display: block;
-        grid-column: 4;
+        width: 75%;
         grid-row: 1 / span 4;
-    }       
-    .build_statement {
+        grid-column: 4; 
+    }
+   
+     .build_statement {
         color: #353252;
         font-size: 40px;
         font-weight: 620;

@@ -827,10 +827,12 @@ transform: rotate(135deg);
     }
 
 
+    .photofordesktop {
+        grid-row: 1 / span 4;
+        grid-column: 4;
+    }
     .image {
         width: 75%;
-        grid-row: 1 / span 4;
-        grid-column: 4; 
     }
    
      .build_statement {
@@ -878,15 +880,16 @@ transform: rotate(135deg);
     .email {
         border-color: white;
     }
-    footer {
+    /*footer {
         margin-left: 45px;
-   }
+   }*/
+
     .footer-notes {
         font-size: 13px;
         font-weight: 600;
         letter-spacing: .1px;
-        margin-top: 25px;
-        margin-bottom: 5px;
+      /* margin-top: 25px;
+        margin-bottom: 5px; */
 
     }
     .gallery svg {

@@ -496,7 +496,7 @@ transform: rotate(135deg);
         text-decoration: underline;
         color: var(--font-color1);
     }
-    .tablet-menu {
+    .learn_more {
         display: flex;
         justify-content: center;
         align-content: center;
@@ -592,10 +592,7 @@ transform: rotate(135deg);
         height: 100%;
         /* margin-bottom: 150px; */
     }
-    .image {
-        display: none;
-    }
-
+    
         /*Gives the top menu a margin*/
      .flex > .flex1 {
         margin: 50px 40px;
@@ -612,10 +609,10 @@ transform: rotate(135deg);
         top: 14px;
     }
     
-    .learn_more {
+    /*.learn_more {
         display: flex;
         justify-content: center;
-    }
+    } */
 
     .email:focus{
         outline: 1px solid #edf2f4;
@@ -782,7 +779,7 @@ transform: rotate(135deg);
         text-decoration: underline;
         color: var(--font-color1);
     }
-    .tablet-menu {
+    .learn_more {
         display: flex;
         justify-content: center;
         align-content: center;
@@ -793,9 +790,10 @@ transform: rotate(135deg);
         background-color: var(--background-color1);
         border-radius: 40px;
         text-align: center;
-        font-size: .75em;
+        font-size: .80em;
         align-self: center;
-        width: 75%; 
+        width: 75%;
+        padding: 6px 8px;
     }
     
     .learn_more > p {
@@ -805,17 +803,18 @@ transform: rotate(135deg);
         text-decoration: underline;
         color: var(--font-color1)
     }
+    /*Grid section*/
     .container {
         display: grid;
         grid-template-columns: 2fr 2fr 1fr 3fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
-    .tablet-menu {
+  .learn_more {
         grid-column: 1 / span 2;
         grid-row: 1;
     }
     .build_statement {
-        grid-column: 1 / span 3;
+        grid-column: 1 / span 2;
         grid-row: 2; 
     }
     .paragraph {
@@ -833,17 +832,18 @@ transform: rotate(135deg);
     }
     .image {
         display: block;
-        grid-column: 3;
-        grid-row: 4;
+        grid-column: 4;
+        grid-row: 1 / span 4;
     }       
-    /*.build_statement {
+    .build_statement {
         color: #353252;
         font-size: 40px;
         font-weight: 620;
         text-align: center;
         margin: 10px 80px;
         letter-spacing: .5px;
-    } */           
+    } 
+
     .hidden_button {
         display: none;        
 }

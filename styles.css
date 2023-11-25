@@ -835,7 +835,9 @@ input::placeholder {
         font-size: 1em; 
         grid-row: 1;
         grid-column: 1 / span 2;
-        border: solid red 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
   }
        
     .build_statement {
@@ -847,6 +849,7 @@ input::placeholder {
         grid-row: 3;
         grid-column: 1 / span 3; 
         color: var(--font-color2);
+        margin-right: 20px;
     }
 
     .flexy {
@@ -929,7 +932,7 @@ input::placeholder {
         color: var(--font-color2);
         font-weight: 600;
         letter-spacing: .1px;
-        margin-top: 45px;
+        margin-top: 4px;
         margin-bottom: 15px;
     }
 

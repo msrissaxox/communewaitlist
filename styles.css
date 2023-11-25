@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
     --font-color1: #CCC1E6;
     --font-color2: #6c757d;
@@ -12,15 +13,18 @@
     --background-color2: #F6F8FE;
     --background-color3: rgba(55, 40, 101, .95)
 }
+
 .entire-page {
     padding: 13px;
     background-color: var(--background-color2);
     border-radius: 5px;
     height: 100%;
 }
+
 input::placeholder {
     color: #c0c0c0;
 }
+
 /*.learn_more {
     background-color: var(--background-color1);
     border-radius: 40px;
@@ -35,17 +39,21 @@ input::placeholder {
 .learn_more > p {
     color: var(--font-color1);
 }
+
 .learn_more > p > a {
     text-decoration: underline;
     color: var(--font-color1)
 }
+
 /*View for mobile*/
+
 @media (min-width:240px) and (max-width: 480px) {
     /* top nav bar */
     body {
         border-radius: 5px;
         padding: 5px 5px;
     }
+    
     .entire-page {
         padding: 13px;
         background-color: var(--background-color2);
@@ -53,30 +61,34 @@ input::placeholder {
        /* need to adjust this to work for all sizes */
         height: 95%;
     }
-    .flex1{
+    
+    .flex1 {
         display: flex;
         flex-direction: row;
         margin-top: 35px;
- }
+    }
+    
     .logo {
         width: 95px;
         position: absolute;
         right: 29px;
         top: 0;
-}
+    }
 
     .email:focus {
         outline: 1px solid #edf2f4;
-  }
+    }
+    
     a {
         color: var(--font-color3);
         font-weight: bold;
-}
+    }
 
     html {
         font-family: 'Nunito Sans', sans-serif;
         margin: 10px;
     }
+    
     .image {
         display: none;
     }
@@ -99,6 +111,7 @@ input::placeholder {
         height: 30px;
         opacity: 0;
     }
+    
     /*square for menu*/
 
     .menu-wrap .hamburger {
@@ -115,6 +128,7 @@ input::placeholder {
     }
 
     /*hamburger line */
+    
     .menu-wrap .hamburger > div {
         position: relative;
         width: 100%;
@@ -135,8 +149,7 @@ input::placeholder {
         top: -6px;
         width: 100%;
         height: 3px;
-        background: inherit;
-      
+        background: inherit;  
     }
 
     /*moves line down*/
@@ -146,17 +159,19 @@ input::placeholder {
     }
 /*Toggler animate not targeting checkbox but targeting hamburger's immediate div*/
 
-.menu-wrap .toggler:checked + .hamburger > div {
-transform: rotate(135deg);
-}
+    .menu-wrap .toggler:checked + .hamburger > div {
+        transform: rotate(135deg);
+    }
 
 /*Turn lines into X */
-.menu-wrap .toggler:checked + .hamburger > div:before,
-.menu-wrap .toggler:checked + .hamburger > div:after {
-    top: 0;
-    transform: rotate(90deg);
+    .menu-wrap .toggler:checked + .hamburger > div:before,
+    .menu-wrap .toggler:checked + .hamburger > div:after {
+        top: 0;
+        transform: rotate(90deg);
 }
+
 /* Rotate on hover when checked */
+
 .menu-wrap .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
 }
@@ -165,6 +180,7 @@ transform: rotate(135deg);
 .menu-wrap .toggler:checked ~ .menu {
     visibility: visible;
 }
+
 .menu-wrap .toggler:checked ~ .menu > div {
     transform: scale(1);
     transition-duration: var(--menu-speed);
@@ -187,6 +203,7 @@ transform: rotate(135deg);
     align-items: center;
     justify-content: center;
 }
+
 .menu-wrap .menu > div {
     background: var(--background-color3);
     border-radius: 50%;
@@ -207,6 +224,7 @@ transform: rotate(135deg);
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
 } 
+
 .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
@@ -264,6 +282,7 @@ transform: rotate(135deg);
     color: white;
     border-radius: 4px;
 }
+
 .learn_more {
     background-color: var(--background-color1);
     border-radius: 40px;
@@ -274,6 +293,7 @@ transform: rotate(135deg);
     padding: 10px; 
     margin-top: 35px;
 }
+
 .email {
     border-color: white;
 }
@@ -285,6 +305,7 @@ transform: rotate(135deg);
     margin-top: 25px;
     margin-left: 11px;
 }
+
 .gallery svg {
     width: 31px;
     height: 34px;
@@ -314,6 +335,7 @@ transform: rotate(135deg);
      .flex > .flex1 {
         margin: 50px 40px;
      }
+
     .flex1{
         display: flex;
         flex-direction: row;
@@ -334,6 +356,7 @@ transform: rotate(135deg);
     .email:focus{
         outline: 1px solid #edf2f4;
       }
+
      .email {
         font-size: 12px;
      }
@@ -799,29 +822,28 @@ transform: rotate(135deg);
     .container {
         display: grid;
         grid-template-columns: 2fr 2fr 1fr 3fr;
-        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-rows: 10% 1fr 1fr 1fr;
     }
+
   .learn_more {
         background-color: var(--background-color1);
         border-radius: 40px;
         text-align: center;
-        font-size: 1em;
-        padding: 10px; 
+        font-size: 1em; 
         grid-row: 1;
         grid-column: 1 / span 2;
+
   }
        
     .build_statement {
      grid-row: 2;
      grid-column: 1 / span 3;
-     border: solid;
     }
 
     .paragraph {
         grid-row: 3;
         grid-column: 1 / span 3; 
         color: var(--font-color2);
-        border: solid;
     }
 
     .flexy {
@@ -831,28 +853,31 @@ transform: rotate(135deg);
         grid-row: 4;
         grid-column: 1 / span 2;
     }
+
 .flexy input {
     height: 50px;
 }
+
 .flexy button {
     height: 50px;
 }
 
+.photofordesktop {
+    grid-row: 1 / span 4;
+    grid-column: 4;
+}
 
-    .photofordesktop {
-        grid-row: 1 / span 4;
-        grid-column: 4;
-    }
-    .image {
-        width: 75%;
-    }
+.image {
+    width: 75%;
+}
    
-     .build_statement {
+ .build_statement {
         color: #353252;
         font-size: 40px;
         font-weight: 620;
         text-align: left;
         letter-spacing: .5px;
+        margin-top: -20px;
     } 
 
     .hidden_button {
@@ -896,16 +921,18 @@ transform: rotate(135deg);
    }*/
 
     .footer-notes {
-        font-size: 13px;
+        font-size: 14px;
+        color: var(--font-color2);
         font-weight: 600;
         letter-spacing: .1px;
-      /* margin-top: 25px;
-        margin-bottom: 5px; */
+      /* margin-top: 25px; */
+
+        margin-bottom: 15px;
 
     }
     .gallery svg {
         width: 40px;
         height: 40px;
-        margin: 2px 3px 20px 0px;
+        margin: 2px 10px 20px 0px;
     }
 }

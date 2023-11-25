@@ -641,7 +641,7 @@ input::placeholder {
         outline: 1px solid #edf2f4;
       }
      .email {
-        font-size: 12px;
+        font-size: 16px;
      }
 
     a {
@@ -903,12 +903,12 @@ input::placeholder {
         width: 100%;
     }
     .waitlist {
-        width: 100%;
-        padding: 10px;
-        margin: 0 auto;
+        width: 50%;
+        padding: 7px;
+        margin: 0 20px;
         display: block;
-        font-size: 12px;
-        letter-spacing: .4px;
+        font-size: 16px;
+        letter-spacing: .3px;
         background-color:var(--background-color1);
         color: white;
         border-radius: 4px;

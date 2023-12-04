@@ -488,7 +488,13 @@ input::placeholder {
         text-decoration: none;
         transition: color 0.4s ease-in-out;
     }
-
+    .container {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
     .learn_more {
         background-color: var(--background-color1);
         border-radius: 40px;
@@ -537,7 +543,6 @@ input::placeholder {
         font-size: 35px;
         font-weight: 620;
         text-align: center;
-        margin: 10px 80px;
         letter-spacing: .5px;
     }            
     .hidden_button {
@@ -561,9 +566,10 @@ input::placeholder {
         padding: 10px;
         border-width: 1px;
         border-radius: 4px;
+        width: 200px;
     }
     .waitlist {
-        width: 100px;
+        width: 150px;
         padding: 10px;
         margin: 0 auto;
         display: block;
@@ -699,7 +705,7 @@ input::placeholder {
 }
 
 .image {
-    width: 75%;
+    width: 70%;
 }
    
  .build_statement {

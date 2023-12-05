@@ -36,15 +36,17 @@ input::placeholder {
 
 /*View for mobile*/
 
-@media (min-width:319px) and (max-width: 480px) {
+@media (max-width: 480px) {
     /* top nav bar */
     body {
         border-radius: 5px;
         padding: 5px 5px;
+        height: 100%;
     }
     html {
         font-family: 'Nunito Sans', sans-serif;
         margin: 10px;
+        height: 100%;
     }
     
     .entire-page {
@@ -62,7 +64,7 @@ input::placeholder {
     }
     
     .logo {
-        width: 95px;
+        width: 205px;
         position: absolute;
         right: 29px;
         top: 0;
@@ -320,6 +322,18 @@ input::placeholder {
         display: none;
     }
 
+    .build_statement {
+        width: 50%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid;
+    }
+    .paragraph {
+        border: solid;
+        width: 75%;
+
+        }
         /*Gives the top menu a margin*/
      .flex > .flex1 {
         margin: 50px 40px;
@@ -336,18 +350,26 @@ input::placeholder {
         right: 29px;
         top: 14px;
     }
-    
-    .learn_more {
+    .container {
+        width: 80%;
+        border: solid;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
+
+    body > div > main > div > div.learn_more > p {
+        font-size: 15px;
+    }
     .email:focus{
         outline: 1px solid #edf2f4;
       }
 
      .email {
-        font-size: 12px;
+        font-size: 14px;
      }
 
     a {
@@ -594,9 +616,9 @@ input::placeholder {
 
     }
     .gallery svg {
-        width: 32px;
-        height: 34px;
-        margin: 2px 3px 20px 0px;
+        width: 50px;
+        height: 40px;
+        margin: 0px 6px;
     }
 }
 /*Media query for desktop */

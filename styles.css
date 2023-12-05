@@ -311,8 +311,9 @@ input::placeholder {
 @media (min-width: 481px) and (max-width: 1200px) {
     html {
         height: 100%;
-        margin-bottom: 250px;
+        font-family: 'Nunito Sans', sans-serif;
     }
+
     body {
         border-radius: 15px;
         height: 100%;
@@ -329,17 +330,18 @@ input::placeholder {
         margin-right: auto;
         border: solid;
     }
+
     .paragraph {
         border: solid;
         width: 75%;
-
         }
+
         /*Gives the top menu a margin*/
      .flex > .flex1 {
         margin: 50px 40px;
      }
 
-    .flex1{
+    .flex1 {
         display: flex;
         flex-direction: row;
      }
@@ -350,6 +352,7 @@ input::placeholder {
         right: 29px;
         top: 14px;
     }
+
     .container {
         width: 80%;
         border: solid;
@@ -360,10 +363,10 @@ input::placeholder {
         align-content: center;
     }
 
-
     body > div > main > div > div.learn_more > p {
         font-size: 15px;
     }
+
     .email:focus{
         outline: 1px solid #edf2f4;
       }
@@ -377,10 +380,6 @@ input::placeholder {
         font-weight: bold;
     }
     
-    html {
-        font-family: 'Nunito Sans', sans-serif;
-        margin: 10px;
-    }
     .menu-wrap {
         position: relative;
         /*was fixed position, changed the above to absolute, then relative*/
@@ -388,6 +387,7 @@ input::placeholder {
         left: 0;*/ 
         z-index: 1;
     }
+
     .menu-wrap .toggler {
         position: absolute;
         /*top: 0;
@@ -412,6 +412,7 @@ input::placeholder {
         align-items: center;
         justify-content: center;
     }
+
     /*hamburger line */
     .menu-wrap .hamburger > div {
         position: relative;
@@ -423,6 +424,7 @@ input::placeholder {
         justify-content: center;
         transition: all 0.4s ease-in-out;
     }
+
     /*Top and bottom lines */
     .menu-wrap .hamburger > div:before,
     .menu-wrap .hamburger > div:after {
@@ -434,10 +436,12 @@ input::placeholder {
         height: 3px;
         background: inherit;    
     }
+
     /*moves line down*/    
     .menu-wrap .hamburger > div:after {
         top: 6px;
     }
+
     /*Toggler animate not targeting checkbox but targeting hamburger's immediate div*/
     
     .menu-wrap .toggler:checked + .hamburger > div {
@@ -459,14 +463,17 @@ input::placeholder {
     .menu-wrap .toggler:checked ~ .menu {
         visibility: visible;
     }
+
     .menu-wrap .toggler:checked ~ .menu > div {
         transform: scale(1);
         transition-duration: var(--menu-speed);
     }
+
     .menu-wrap .toggler:checked ~ .menu > div > div {
         opacity: .8;
         transition: opacity 0.4s ease-in-out;
     }
+
     .menu-wrap .menu {
         position: fixed;
         top: 0;
@@ -479,6 +486,7 @@ input::placeholder {
         align-items: center;
         justify-content: center;
     }
+
     .menu-wrap .menu > div {
         background: var(--background-color3);
         border-radius: 50%;
@@ -491,6 +499,7 @@ input::placeholder {
         transform: scale(0);
         transition: all 0.4s ease-in-out;
     } 
+
     .menu-wrap .menu > div > div {
         text-align: center;
         max-width: 90vw;
@@ -498,6 +507,7 @@ input::placeholder {
         opacity: 0;
         transition: opacity 0.4s ease-in-out;
     } 
+
     .menu-wrap .menu > div > div > ul > li {
         list-style: none;
         color: #fff;
@@ -510,6 +520,7 @@ input::placeholder {
         text-decoration: none;
         transition: color 0.4s ease-in-out;
     }
+
     .container {
         margin-top: 100px;
         display: flex;
@@ -517,6 +528,7 @@ input::placeholder {
         justify-content: center;
         align-content: center;
     }
+
     .learn_more {
         background-color: var(--background-color1);
         border-radius: 40px;
@@ -532,10 +544,12 @@ input::placeholder {
     .learn_more > p {
         color: var(--font-color1);
     }
+
     .learn_more > p > a {
         text-decoration: underline;
         color: var(--font-color1);
     }
+
     .learn_more {
         display: flex;
         justify-content: center;
@@ -555,6 +569,7 @@ input::placeholder {
     .learn_more > p {
         color: var(--font-color1);
     }
+
     .learn_more > p > a {
         text-decoration: underline;
         color: var(--font-color1)
@@ -566,7 +581,8 @@ input::placeholder {
         font-weight: 620;
         text-align: center;
         letter-spacing: .5px;
-    }            
+    }   
+
     .hidden_button {
         display: none;        
 }
@@ -578,18 +594,21 @@ input::placeholder {
         font-weight: 100;
         color: #495057;
     }
+
     .flexy {
         display: grid;
         grid-template-columns: 200px 100px;
         justify-content: center;
         column-gap: 10px;
     }
+
     .email {
         padding: 10px;
         border-width: 1px;
         border-radius: 4px;
         width: 200px;
     }
+
     .waitlist {
         width: 150px;
         padding: 10px;
@@ -601,26 +620,30 @@ input::placeholder {
         color: white;
         border-radius: 4px;
     }
+
     .email {
         border-color: white;
     }
+
     footer {
         margin-left: 45px;
    }
+
     .footer-notes {
         font-size: 11px;
         font-weight: 600;
         letter-spacing: .1px;
         margin-top: 25px;
         margin-bottom: 5px;
-
     }
+
     .gallery svg {
         width: 50px;
         height: 40px;
         margin: 0px 6px;
     }
 }
+
 /*Media query for desktop */
 
 @media (min-width: 1201px) {
@@ -639,6 +662,7 @@ input::placeholder {
      .flex > .flex1 {
         margin: 50px 40px;
      }
+
     .flex1{
         display: flex;
         flex-direction: row;
@@ -651,10 +675,10 @@ input::placeholder {
         top: 14px;
     }
     
-
     .email:focus{
         outline: 1px solid #edf2f4;
       }
+
      .email {
         font-size: 16px;
      }
@@ -759,6 +783,7 @@ input::placeholder {
         color: white;
         border-radius: 4px;
     }
+    
     .email {
         border-color: white;
     }

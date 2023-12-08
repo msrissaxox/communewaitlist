@@ -658,6 +658,16 @@ input::placeholder {
         /* margin-bottom: 150px; */
     }
     
+/*Working on top menu bar*/
+.flex1 li {
+    list-style: none;
+}
+body > div > div > div.menu-wrap.flex1 > input {
+    display: none;
+}
+
+
+
         /*Gives the top menu a margin*/
      .flex > .flex1 {
         margin: 50px 40px;
@@ -783,7 +793,7 @@ input::placeholder {
         color: white;
         border-radius: 4px;
     }
-    
+
     .email {
         border-color: white;
     }

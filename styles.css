@@ -662,6 +662,18 @@ input::placeholder {
 .flex1 li {
     list-style: none;
 }
+
+.menu li {
+    display: inline-block;
+}
+
+
+
+.menu {
+    display: flex;
+}
+
+
 body > div > div > div.menu-wrap.flex1 > input {
     display: none;
 }

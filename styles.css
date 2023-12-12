@@ -673,7 +673,24 @@ input::placeholder {
     display: inline-block;
 }
  
-
+.container {
+    display: grid; 
+    grid-template-columns: 1.6fr 1.4fr 2fr 1fr 1fr; 
+    grid-template-rows: 1fr 2fr 1fr 1fr fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "communes . tops tops ."
+      "builddd builddd builddd pic pic"
+      "textsection textsection textsection . ."
+      "textsection textsection textsection . ."
+      "emails emails web . ."; 
+}
+.communes {
+    grid-area: communes;
+}
+.tops {
+    grid-area: tops;
+}
 
 .top-bar {
     width: 50%;

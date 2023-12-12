@@ -657,19 +657,22 @@ input::placeholder {
         height: 100%;
         /* margin-bottom: 150px; */
     }
-    
+    .menu-wrap input {
+        display: none;
+    }
 /*Working on top menu bar*/
 .flex1 li {
     list-style: none;
 }
 
 .menu ul {
-    width: 100%;
+    width: 700px;
 }
 
 .menu li {
     display: inline-block;
 }
+ 
 
 
 .top-bar {
@@ -772,7 +775,7 @@ html {
 
 .child2 {
     height: 50px;
-    width: 50%;
+    width: 250px;
     padding: 7px;
     margin: 0 20px;
     font-size: 16px;

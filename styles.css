@@ -669,11 +669,23 @@ input::placeholder {
 
 .flex {
     display: flex;
-    border: solid 1px;
+   justify-content: space-between;
 }
 
-.logo {
-    width: }
+.top-bar {
+    width: 50%;
+    padding: 7px;
+    margin: 0 20px;
+    font-size: 16px;
+    letter-spacing: .3px;
+    background-color:var(--background-color1);
+    color: white;
+    border-radius: 4px;
+    border: solid 5px red;
+    display: inline-block;
+}
+
+
 body > div > div > div.menu-wrap.flex1 > input {
     display: none;
 }
@@ -695,66 +707,65 @@ body > div > div > div.menu-wrap.flex1 > input {
         top: 14px;
     }*/
     
-    .email:focus{
-        outline: 1px solid #edf2f4;
-      }
+ .email:focus{
+    outline: 1px solid #edf2f4;
+}
 
-     .email {
-        font-size: 16px;
-     }
+ .email {
+    font-size: 16px;
+}
 
-    a {
-        color: var(--font-color3);
-        font-weight: bold;
-    }
+a {
+    color: var(--font-color3);
+    font-weight: bold;
+}
     
-    html {
-        font-family: 'Nunito Sans', sans-serif;
-       margin: 15px;
-       height: 100%;
-    }
+html {
+   font-family: 'Nunito Sans', sans-serif;
+   margin: 15px;
+   height: 100%;
+}
     
-    .container {
-        display: grid;
-        grid-template-columns: 4% 2fr 1fr 3fr;
-        grid-template-rows: 10% 1fr 1fr 1fr;
-        row-gap: 20px;
-    }
+.container {
+    display: grid;
+    grid-template-columns: 4% 2fr 1fr 3fr;
+    grid-template-rows: 10% 1fr 1fr 1fr;
+    row-gap: 20px;
+}
 
-  .learn_more {
-        background-color: var(--background-color1);
-        border-radius: 40px;
-        text-align: center;
-        font-size: 1em; 
-        grid-row: 1;
-        grid-column: 2 / span 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: solid;
-  }
-       
-    .build_statement {
-     grid-row: 2;
-     grid-column: 2 / span 2;
-     border: solid;
-    }
+.learn_more {
+    background-color: var(--background-color1);
+    border-radius: 40px;
+    text-align: center;
+    font-size: 1em; 
+    grid-row: 1;
+    grid-column: 2 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+.build_statement {
+    grid-row: 2;
+    grid-column: 2 / span 2;
+    border: solid;
+}
 
-    .paragraph {
-        grid-row: 3;
-        grid-column: 2 / span 2; 
-        color: var(--font-color2);
-        margin-right: 20px;
-        border: solid;
-    }
+.paragraph {
+    grid-row: 3;
+    grid-column: 2 / span 2; 
+    color: var(--font-color2);
+    margin-right: 20px;
+    border: solid;
+}
 
-    .flexy {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        grid-row: 4;
-        grid-column: 1 / span 2;
-    }
+.flexy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 4;
+    grid-column: 1 / span 2;
+}
 
 .flexy input {
     height: 50px;
@@ -774,39 +785,26 @@ body > div > div > div.menu-wrap.flex1 > input {
     width: 70%;
 }
    
- .build_statement {
-        color: #353252;
-        font-size: 40px;
-        font-weight: 620;
-        text-align: left;
-        letter-spacing: .5px;
-    } 
+.build_statement {
+    color: #353252;
+    font-size: 40px;
+    font-weight: 620;
+    text-align: left;
+    letter-spacing: .5px;
+} 
 
-    .hidden_button {
-        display: none;        
+.hidden_button {
+    display: none;        
 }
   
-    .email {
-        padding: 10px;
-        border-width: 1px;
-        border-radius: 4px;
-        width: 100%;
-    }
-    .waitlist {
-        width: 50%;
-        padding: 7px;
-        margin: 0 20px;
-        font-size: 16px;
-        letter-spacing: .3px;
-        background-color:var(--background-color1);
-        color: white;
-        border-radius: 4px;
-    }
-
-    .email {
-        border-color: white;
-    }
-
+.email {
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 100%;
+    border-color: white;
+}
+ 
     .footer-notes {
         font-size: 14px;
         color: var(--font-color2);

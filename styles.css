@@ -675,10 +675,28 @@ input::placeholder {
 
 .top-bars {
     display: flex;
+    border: solid;
 }
-
-
-
+.top-bars li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.top-bars ul {
+    margin: 10px 5px;
+}
+.top-bars ul li:nth-child(1) {
+    padding: 0px 10px;
+}
+.top-bars ul li:nth-child(2) {
+    padding: 0px 10px;
+}
+.top-bars ul li:nth-child(3) {
+    padding: 0px 10px;
+}
+.top-bars ul li:nth-child(4) {
+    padding: 0px 10px;
+}
 
 
 /*.top-bar {
@@ -736,10 +754,8 @@ html {
 }
     
 .container {
- 
 
-
-
+}
 .learn_more {
     background-color: var(--background-color1);
     border-radius: 40px;
@@ -775,12 +791,12 @@ html {
 }
 
 .child2 {
-    height: 50px;
-    width: 250px;
+    height: 40px;
+    width: 120px;
     padding: 7px;
     margin: 0 20px;
-    font-size: 16px;
-    letter-spacing: .3px;
+    font-size: 13px;
+    letter-spacing: 1px;
     background-color:var(--background-color1);
     color: white;
     border-radius: 4px;

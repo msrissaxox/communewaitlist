@@ -657,6 +657,10 @@ input::placeholder {
         height: 100%;
         /* margin-bottom: 150px; */
     }
+    .menu-wrap {
+        margin-bottom: 50px;
+    }
+
     .menu-wrap input {
         display: none;
     }
@@ -747,6 +751,36 @@ input::placeholder {
         right: 29px;
         top: 14px;
     }*/
+    
+
+/*Working on the main part of the page below. add Gric */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .learn_more {
+        grid-column: 1 / span 2;
+    }
+
+    .build_statement {
+        grid-column: 1 / span 3;
+        grid-row: 2;
+    }
+    .paragraph {
+        grid-column: 1 / span 4;
+        grid-row: 3;
+    }
+
+    .flexy {
+        grid-column: 1 / span 2;
+        grid-row: 4;
+    }
+
+    footer .footer-notes {
+        grid-row: 4;
+        grid-column: 1 /span 4;
+    }
     
      .email:focus{
         outline: 9px solid #edf2f4;

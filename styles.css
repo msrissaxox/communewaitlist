@@ -797,6 +797,10 @@ input::placeholder {
     .emails:active {
         outline: 1px solid #edf2f4;
     }
+    input::placeholder {
+        font-weight: 200;
+    }
+
      .flexy .emails {
         font-size: 14px;
         font-weight: light;

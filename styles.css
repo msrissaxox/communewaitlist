@@ -756,22 +756,23 @@ input::placeholder {
 /*Working on the main part of the page below. add Gric */
     main {
         display: grid;
-        grid-template-columns: 10% 20% 29% 1fr;
+        grid-template-columns: 10% 15% 3% 1% 1fr;
         grid-template-rows: 7% 25% 1fr 1fr;
         margin-left: 5%;
         margin-right: 5%;
-        gap: 15%;
+        gap: 5% 10%;
     }
+
     .learn_more {
         grid-column: 1 / span 2;
     }
 
     .build_statement {
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 3;
         grid-row: 2;
     }
     .paragraph {
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 4;
         grid-row: 3;
     }
 
@@ -780,7 +781,7 @@ input::placeholder {
         grid-row: 4;
     }
      .photofordesktop {
-        grid-column: 3 / span 1;
+        grid-column: 4 / span 2;
         grid-row: 1 / span 4;
 
      }

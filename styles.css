@@ -696,8 +696,9 @@ input::placeholder {
 
     .top-bars li a {
         text-decoration: none;
-        font-size: 12px;
-        font-weight: lighter;
+        font-size: 16px;
+        color: var(--font-color2);
+        letter-spacing: .1px;
 }
 
     .top-bars ul {
@@ -862,7 +863,7 @@ input::placeholder {
 }
 
     .child2 {
-        height: 40px;
+        height: 48px;
         width: 120px;
         padding: 7px;
         margin: 0 20px;
@@ -879,7 +880,7 @@ input::placeholder {
 }
 
     .image {
-        width: 70%;
+        width: 78%;
 }
    
     .hidden_button {
@@ -911,4 +912,5 @@ input::placeholder {
     .footer-notes, .gallery {
         margin-left: 5%;
     }
+
 }

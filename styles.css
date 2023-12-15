@@ -717,6 +717,9 @@ input::placeholder {
     .top-bars ul li:nth-child(4) {
         padding: 0px 10px;
 }
+div.logo > svg {
+    width: 140px;
+}
 
 /*.top-bar {
     width: 50%;

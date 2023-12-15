@@ -770,10 +770,17 @@ input::placeholder {
     .build_statement {
         grid-column: 1 / span 3;
         grid-row: 2;
+        color: #353252;
+        font-size: 47px;
+        font-weight: 620;
+        text-align: left;
+        letter-spacing: .4px;
     }
     .paragraph {
         grid-column: 1 / span 4;
         grid-row: 3;
+        letter-spacing: .1px;
+        font-weight: lighter;
     }
 
     .flexy {
@@ -829,16 +836,16 @@ input::placeholder {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid;
+       /* border: solid; */
 }
     .build_statement {
-        border: solid;
+         /*border: solid; */
 }
 
     .paragraph {
         color: var(--font-color2);
         margin-right: 20px;
-        border: solid;
+        /*border: solid; */
 }
 
     .flexy {
@@ -868,21 +875,13 @@ input::placeholder {
 }
 
     .photofordesktop {
-        border: solid;
+       /* border: solid; */ 
 }
 
     .image {
         width: 70%;
 }
    
-    .build_statement {
-        color: #353252;
-        font-size: 40px;
-        font-weight: 620;
-        text-align: left;
-        letter-spacing: .5px;
-} 
-
     .hidden_button {
         display: none;        
 }

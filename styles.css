@@ -588,7 +588,7 @@ input::placeholder {
 }
   
     .paragraph {
-        font-size: 11.5px;
+        font-size: 2rem;
         margin: 5px 50px 30px 50px;
         text-align: center;
         font-weight: 100;
@@ -785,6 +785,7 @@ input::placeholder {
         grid-row: 3;
         letter-spacing: .1px;
         font-weight: lighter;
+        font-size: 1.14rem;
     }
 
     .flexy {
